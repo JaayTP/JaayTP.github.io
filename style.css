@@ -45,11 +45,11 @@ h1, h2 {
   flex: 0 0 140px;                /* No grow/shrink, 140px width */
   height: 140px;
   margin-bottom: 10px;
-  background-color: #B12727;
+  background-color: #B44343;
 }
 .project {
   transition: 0.2s background-color; /* add this */
 }
 .project:hover {
-  background-color: #B44343;
+  background-color: #B12727;
 }
