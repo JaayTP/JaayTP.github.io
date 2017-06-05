@@ -21,7 +21,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 h1, h2 {
-  color: #B12727;
+  color: #CB3434;
 }
 #line {
   position: absolute;
@@ -29,7 +29,7 @@ h1, h2 {
   right: 0;
   top: 0;
   height: 4px;
-  background-color: #B12727;
+  background-color: #CB3434;
 }
 #photo {
   width: 480px;
@@ -40,16 +40,17 @@ h1, h2 {
   flex-wrap: wrap;                /* Wrap content */
   justify-content: space-between; /* Spread space */
 }
+.project {
+  transition: 0.2s background-color; /* add this */
+}
+.project:hover {
+  background-color: #0066CC;
+}
 
 .project {
   flex: 0 0 140px;                /* No grow/shrink, 140px width */
   height: 140px;
   margin-bottom: 10px;
-  background-color: #B44343;
+  background-color: #7AA3CC;
 }
-.project {
-  transition: 0.2s background-color; /* add this */
-}
-.project:hover {
-  background-color: #B12727;
-}
+
